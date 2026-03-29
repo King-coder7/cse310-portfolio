@@ -1,0 +1,8 @@
+# Python and Django ignore rules
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Mac OS ignore rules
+.DS_Store

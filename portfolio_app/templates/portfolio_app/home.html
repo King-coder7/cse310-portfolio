@@ -1,0 +1,10 @@
+{% extends 'portfolio_app/base.html' %}
+{% block content %}
+<div class="p-5 mb-4 bg-white rounded-3 shadow-sm text-center">
+    <h1 class="display-4">Welcome! I'm Patrick Sano.</h1>
+    <p class="lead">This is my Portfolio Website built with Django for CSE 310.</p>
+    <hr class="my-4">
+    <p>Feel free to explore my projects or reach out via the contact page.</p>
+    <a class="btn btn-primary btn-lg" href="{% url 'projects' %}" role="button">View My Work</a>
+</div>
+{% endblock %}
